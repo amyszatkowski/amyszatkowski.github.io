@@ -53,4 +53,60 @@ table {
 
 /* END RESET */
 
+#photo {
+	float:left;
+	margin-top:-50px;
+}
 
+.time {
+		font-size:10px;
+		line-height:1.8em;
+		margin-right:250px;
+		margin-top:80px;
+		text-align:right;
+	 }
+		
+	
+.number {
+		 font-family:Arial;
+		 font-weight:bold;
+		 font-size:12px;
+		 line-height:2em;
+		 text-align:right;
+		 margin-right:650px;
+		 margin-top:95px;
+	
+}
+
+.food {
+		font-family:Garamond;
+		font-size:15px;
+		text-align:left;
+	    line-height:2em;
+		float:right;
+		margin-right:480px;
+	    
+	
+}
+
+.main {
+		font-family:Garamond;
+		font-size:15px;
+		line-height:1.3em;
+		float:right;
+		margin-right:150px;
+		margin-top:-260px;
+	
+}	
+
+
+
+.link {
+	   text-decoration:none;
+	   font-family:Arial;
+	   font-size:12px;
+	   color:yellow;
+	   background-color:gray;
+	   padding:3px;
+	  
+}
