@@ -53,61 +53,37 @@ table {
 
 /* END RESET */
 
-.logo {
-		margin-top:50px;
-		margin-left:350px;
-		
+#logo {
+		margin: 0px auto; 
+		width: 30%;
 		}
 
-.nav {
-		font-family:helvetica;
-		font-size:20px;
-	  	color:purple;
-		margin:20px;
-		text-decoration:none;
-	
-		
-	}
-	
-.ulist { 
-		list-style:none;
-		margin:10px;
-		background-color:purple;
-		color:white;
-		font-family:helvetica;
-		text-transform:uppercase;
-		padding:14px 14px;
-	}	
-	
-.section {
-		  margin-left:350px;
-	
-	
-}	
+li 
+	{float:left; 
+	 width:50%;
+	 padding: 10px;}
 
-.h1 {
-		font-family:helvetica;
-		font-variant:bold;
-		font-size:35px;
-		color:navy;
-		text-transform:uppercase;
-		margin-top:20px;
-    }
+#cat { 
+	float:right; 
+	width: 30%;
+	padding:10px;}
 
-.headline {
-		font-family:helvetica;
-		font-variant:bold;
-		font-size:35px;
-		color:navy;
-		font-style:uppercase;
-	
-      }
+#dog {
+	float:left;
+	width:30%;
+	padding:10 px;}
 
-.para  {
-		font-family:Garamond;
-		font-size:15px;
-		font-style:12em;
-		float:right;
-    }
+
+
+
+
+
+
+
+
+
+
+
+
 
 

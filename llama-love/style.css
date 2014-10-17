@@ -52,38 +52,10 @@ table {
 
 /* -----------------END RESET---------------- */
 
-#photo {
-		float:right;
-		margin-right:100px;
-		margin-bottom:50px;
-		margin-left:10px;
-	}
-	
-#photo2 {
-		float:right;
-
-		
-}	
-
-#H {
-		font-size:30px;
-		font-family:helvetica;
-		font-variant:bold;
-		color:navy;
-		margin-top:15px;
+#llama-2 {
+	float:left;
 }
 
-.HH {
-		font-size:15px;
-		font-family:helvetica;
-		font-variant:italic;
-		color:teal;
-		margin-top:5px;
-		margin-bottom:5px;
-}
 
-.p {
-		font-size:15px;
-		font-family:Times;
-		color:black;
-}
+
+

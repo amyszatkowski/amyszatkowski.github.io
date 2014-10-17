@@ -50,3 +50,72 @@ table {
 	border-spacing: 0;
 }
 
+/* END RESET */
+
+#site-wrapper {
+	background-color:light green;
+}
+
+#top-nav { 
+	background-color:blue;}
+			
+
+#main-menu {
+
+}
+
+#main-menu li {
+	float:left;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:10px;
+	padding-bottom: 10px;
+	background-color: brown;
+	font-family: Arial;
+	font-variant: Uppercase;
+
+}
+
+#main-menu a {
+	text-decoration:none;
+	color:white;
+	font-variant: uppercase;
+}
+
+#page { 
+	background-color: orange;
+	clear:both;
+	float:right;
+	}
+
+#sidebar { 
+	background-color:red;
+	float:right;
+	clear:both;}
+
+#footer-contact {
+	background-color:yellow;
+	clear:both;
+}
+
+#footer-contact p {
+	line-length:10px;
+}
+
+#footer-follow { 
+	background-color:purple;}
+
+
+#footer-follow li {
+	float:right;
+		
+}
+
+#footer-follow h1 {
+	float:right;}
+
+
+
+
+
+
