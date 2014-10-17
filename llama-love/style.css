@@ -52,38 +52,69 @@ table {
 
 /* -----------------END RESET---------------- */
 
-#photo {
-		float:right;
-		margin-right:100px;
-		margin-bottom:50px;
-		margin-left:10px;
-	}
-	
-#photo2 {
-		float:right;
-
-		
-}	
-
-#H {
-		font-size:30px;
-		font-family:helvetica;
-		font-variant:bold;
-		color:navy;
-		margin-top:15px;
+#llama-1 {
+	float:right;
+	width:40%;
+	clear:both;
+	padding:50px;
 }
 
-.HH {
-		font-size:15px;
-		font-family:helvetica;
-		font-variant:italic;
-		color:teal;
-		margin-top:5px;
-		margin-bottom:5px;
+.alignleft {
+	float: left;
+	margin:20px;
 }
 
-.p {
-		font-size:15px;
-		font-family:Times;
-		color:black;
+
+#llama-2 {
+	float:left;
+	width:40%;
+	padding:50px;
+
 }
+
+h1 {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size:28px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+ 
+h2 {
+	font-family: sans-serif;
+	font-weight: light;
+	font-size:10px;
+	color: gray;
+	padding-bottom:30px;
+}
+
+
+p {
+	font-family: sans-serif;
+	font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
