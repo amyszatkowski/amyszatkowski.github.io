@@ -60,8 +60,7 @@ header {
 		
 body { 
 		margin: opx auto;
-		width: 960px;
-		}
+		width: 960px;}
 
 #logo {
 		display: inline-block;
@@ -69,8 +68,7 @@ body {
 		width: 40%;
 		text-align:center;
 		padding-top:10px;
-		padding-bottom:20px;
-		}
+		padding-bottom:20px;}
 
 nav {
 		margin: 0px auto;
@@ -82,13 +80,12 @@ nav {
 		border-top-width: 3px;
 		border-bottom-color: black;
 		border-bottom-style: solid;
-		border-bottom-width: 3px;
-		}
 		border-bottom-width: 3px;}
 
 nav a {
 		text-decoration:none;
 		color:black;
+		font-weight:bold;}
 
 nav li 
 	{display: inline-block;
@@ -97,24 +94,19 @@ nav li
 	padding-left: 20px;
 	font-size: 25px;
 	text-transform: uppercase;
-	font-family: Garamond;
-	font-weight: bold;
-	}
+	font-family: Garamond;}
 	
 #cat { 
 	float:right; 
 	width: 49%;
-	padding:0px;
-	}
+	padding:0px;}
 
 #dog {
 	float:left;
 	width:49%;
 	padding:10 px;
-	
 	clear:both;
-	margin-bottom:20px;
-	}
+	margin-bottom:20px;}
 	
 h1 { 
 	font-family: Garamond;
@@ -134,22 +126,18 @@ footer {
 
 p {
 		clear:both;
-		float:left;
-		}
-
+		float:left;}
 
 
 .text {
-		float:left;
-	}
+		float:left;}
 		
 .wiki {
 		color:red;}
 
-
 .copy {
-		float:right;
-	}
+	float:right;}
+
 .marthar {
 		color:red;}
 
