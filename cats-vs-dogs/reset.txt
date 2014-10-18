@@ -84,13 +84,11 @@ nav {
 		border-bottom-style: solid;
 		border-bottom-width: 3px;
 		}
+		border-bottom-width: 3px;}
 
 nav a {
 		text-decoration:none;
 		color:black;
-		font-weight:bold;
-		
-		}
 
 nav li 
 	{display: inline-block;
