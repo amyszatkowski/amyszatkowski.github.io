@@ -50,79 +50,179 @@ table {
 	border-spacing: 0;
 }
 
-<<<<<<< HEAD
+
 /* END RESET */
 
-#site-wrapper {
-	background-color:light green;
+body {
+	font-family: sans-serif;
+	line-height: 1;
 }
 
-#top-nav { 
-	background-color:blue;}
-			
+#site-wrapper {
+	background-color:#ebf2d5;
+	height: 125px;
+}
+
+
+#site-header {
+	margin: 0px auto;
+	width: 960px;
+	position:relative;
+}
+
+h1 h2 {
+	color:#77491c;
+	text-transform: uppercase;
+	font-size: 17px;
+	text-weight: bold;
+}
+
+#sidebar h1 {
+	color:77491c;
+	text-transform: uppercase;
+	font-size:18px;
+}
+
+
+#site-header h1 a {
+	display: block;
+	width: 305px;
+	height: 124px;
+	background: url(images/logo.png);
+	text-indent:-99999px;
+}
+
+
+#top-nav {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	font-size:12px;
+}
+
+a {
+	text-decoration: none;
+	color: #9f8676;
+}
+
+
+#menu-wrapper {
+	background-color: #77491c;
+	height: 35px;
+}
 
 #main-menu {
-
-}
+	margin: 0px auto;
+	width: 960px;
+	display:block;
+}			
 
 #main-menu li {
-	float:left;
-	padding-left:20px;
-	padding-right:20px;
-	padding-top:10px;
-	padding-bottom: 10px;
-	background-color: brown;
-	font-family: Arial;
-	font-variant: Uppercase;
-
+	float: left;
+	padding: 5px;
+	list-style-type:none;
+	text-transform: uppercase;
+	margin: 5px;
+	color: white;
 }
 
-#main-menu a {
+#main-menu li a {
 	text-decoration:none;
 	color:white;
-	font-variant: uppercase;
+}
+ol ul {
+	list-style: none;
+	color:white;
 }
 
-#page { 
-	background-color: orange;
-	clear:both;
-	float:right;
-	}
+#content {
+	margin: 0px auto;
+	width: 960px;
+}
+	
+#page {
+	clear: both;
+	width: 60%;
+	float: left;
+	line-height: 1.5em;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
 
-#sidebar { 
-	background-color:red;
-	float:right;
-	clear:both;}
+#page h1 {
+	color: #77491c;
+	text-transform: uppercase;
+	font-size:32px;
+	padding-bottom:12px;
+}
+
+#page h2 {
+	color: #77491c;
+	text-transform: uppercase;
+	font-size:18px;
+}
+
+#page h1 {
+	color: #77491c;
+	text-transform: uppercase;
+	text-weight: bold;
+	padding-bottom: 10px;
+}
+
+p {
+	font-size: 13px;
+	padding-bottom: 6px;
+}
+
+#sidebar {
+	float: right;
+	width: 30%;
+	padding-top: 135px;
+	line-height: 1.5em;
+}
+
+ol, ul {
+	list-style:none;
+}
+
+#footer-wrapper {
+	background-color: #77491c;
+	height: 160px;
+	clear:both;
+}
+
+#site-footer {
+	position: relative;
+	clear:both;
+	margin: 0 auto;
+	width: 960px;
+}
 
 #footer-contact {
-	background-color:yellow;
-	clear:both;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	color: white;
+	font-size: 12px;
+	width: 150px;
 }
 
-#footer-contact p {
-	line-length:10px;
+footer h1 {
+	text-transform: uppercase;
+	color: #cabca5;
+	font-size: 14px;
+	font-weight: bold;
+	padding-top:5px;
 }
 
-#footer-follow { 
-	background-color:purple;}
-
+#footer-follow {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
 
 #footer-follow li {
-	float:right;
-		
+	float:left;
 }
-
-#footer-follow h1 {
-	float:right;}
-
-
-
-
-
-
-=======
-
-body {
-	background-color:red;
-}
->>>>>>> FETCH_HEAD
