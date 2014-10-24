@@ -1,3 +1,5 @@
+
+
 /* Meyer Reset */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -51,91 +53,91 @@ table {
 
 /* END RESET */
 
-#logo {
-		margin: 0px auto;
-		width:30%;
-		display: inline-block;
-		}
+
 
 header {
-	text-align:center;
-}
+		text-align:center;}
+		
+body { 
+		margin: opx auto;
+		width: 960px;}
 
-nav { 
-	margin: 0px auto;
-	width:80%;
-	text-align:center;
-	border-top: 1px solid black;
-}
+#logo {
+		display: inline-block;
+		margin: 0px auto; 
+		width: 40%;
+		text-align:center;
+		padding-top:10px;
+		padding-bottom:20px;}
 
-
-
-nav li {
-	display: inline-block;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	padding-left: 20px;
-	font-size: 22px;
-	text-transform: uppercase;
-	font-family: Garamond;
-    font-weight: bold;
-	border-width: 5px;
-	border-color: black;
-}
-
-body {width: 1000px;}
-
+nav {
+		margin: 0px auto;
+		width: 80%;
+		text-align: center;
+		margin-bottom:10px;
+		border-top-color: black;
+		border-top-style: solid;
+		border-top-width: 3px;
+		border-bottom-color: black;
+		border-bottom-style: solid;
+		border-bottom-width: 3px;}
 
 nav a {
-	text-decoration:none;
-	color:black;	
-}
+		text-decoration:none;
+		color:black;
+		font-weight:bold;}
 
-
-
-
-#content-cat { 
-	float:right;
-	width:40%;
-	padding:10px;}
-
-
-#content-dog {
-	float:left;
-	width:40%;
-	padding:10px;
-	clear:both;}
+nav li 
+	{display: inline-block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-family: Garamond;}
 	
+#cat { 
+	float:right; 
+	width: 49%;
+	padding:0px;}
 
-h1 {
-	font-size:30px;
-	font-family: Garamond;
-	font-weight: bold;
-}
-
-#footer {
+#dog {
+	float:left;
+	width:49%;
+	padding:10 px;
 	clear:both;
-	padding-top:30px;
-}
+	margin-bottom:20px;}
+	
+h1 { 
+	font-family: Garamond;
+	font-size: 25px;
+	font-weight:bold;
+	padding-top:15px;}	
+	
+footer {
+		margin-top: 20px;
+		border-top-color: black;
+		border-top-style: solid;
+		border-top-width: 3px;
+		padding-top: 5px;
+		clear: both;
+		font-size: 15px;
+		display:block;}	
+
+p {
+		clear:both;
+		float:left;}
 
 
+.text {
+		float:left;}
+		
+.wiki {
+		color:red;}
 
+.copy {
+	float:right;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.marthar {
+		color:red;}
 
