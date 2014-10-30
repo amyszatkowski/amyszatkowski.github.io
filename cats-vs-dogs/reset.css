@@ -53,8 +53,21 @@ table {
 
 /* END RESET */
 
+@media screen and (max-width:1200px){
+	#site-wrapper {max-width:100%;}
+	
+}
 
 
+@media screen and (max-width: 800px){
+	#site-wrapper {max-width:100%;}
+	#dog-photo {max-width: 100%;}
+	#cat-photo {max-width:100%;}
+	h1 {font-size:.5em;}
+	p {font-size:.8em;}
+	nav li {font-size:.5em;}
+	
+}
 header {
 		text-align:center;}
 		
@@ -129,15 +142,15 @@ p {
 		float:left;}
 
 
-.text {
+#text {
 		float:left;}
 		
-.wiki {
+#wiki {
 		color:red;}
 
-.copy {
+#copy {
 	float:right;}
 
-.marthar {
+#marthar {
 		color:red;}
 
