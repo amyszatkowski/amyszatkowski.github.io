@@ -53,7 +53,39 @@ table {
 
 /* END RESET */
 
-<<<<<<< HEAD
+@media screen and (max-width:1200px){
+	#site-wrapper {max-width:100%;}
+	#dog-photo {max-width: 100%;}
+	#cat-photo {max-width:100%;}
+	#nav li {font-size:1em;}
+}
+
+@media screen and (max-width: 1000px){
+	#site-wrapper {max-width:100%;}
+	h1 {font-size: 25px;}
+	#logo {max-width: 100%;}
+	#cat-photo {max-width: 100%;}
+	#dog-photo {max-width: 100%;}
+			}
+
+@media screen and (max-width: 800px){
+	#site-wrapper {max-width:100%;}
+	#dog-photo {max-width: 100%;}
+	#cat-photo {max-width:100%;}
+	h1 {font-size:.5em;}
+	p {font-size:.8em;}
+	nav li {font-size:.5em;}
+}
+
+@media screen and (max-width: 600px){
+	#site-wrapper {max-width:100%;}
+	h1 {font-size:20px;}
+	#logo {max-width:100%;}
+	#cat-photo {max-width:100%;}
+	#dog-photo {max-width:100%;}
+			}
+
+
 
 
 header {
@@ -62,12 +94,7 @@ header {
 #site-wrapper { 
 		margin: opx auto;
 		width: 960px;}
-=======
-@media screen and (max-width:1200px){
-	#site-wrapper {max-width:100%;}
-	
-}
->>>>>>> FETCH_HEAD
+
 
 #logo {
 		display: inline-block;
@@ -76,18 +103,8 @@ header {
 		text-align:center;
 		padding-top:10px;
 		padding-bottom:20px;}
-
-<<<<<<< HEAD
-=======
-@media screen and (max-width: 800px){
-	#site-wrapper {max-width:100%;}
-	#dog-photo {max-width: 100%;}
-	#cat-photo {max-width:100%;}
-	h1 {font-size:.5em;}
-	p {font-size:.8em;}
-	nav li {font-size:.5em;}
 	
-}
+
 header {
 		text-align:center;}
 		
@@ -174,27 +191,4 @@ p {
 
 #marthar {
 		color:red;}
-<<<<<<< HEAD
-
-
-@media screen and (max-width: 1000px){
-			
-	h1 {font-size: 25px;}
-			#logo {max-width: 100%;}
-			#cat-photo {max-width: 100%;}
-			#dog-photo {max-width: 100%;}
-		}
-		
-@media screen and (max-width: 600px){
-			
-	h1 {font-size:20px;}
-			#logo {max-width:100%;}
-			#cat-photo {max-width:100%;}
-			#dog-photo {max-width:100%;}
-		}
-
-
-
-=======
->>>>>>> FETCH_HEAD
 
