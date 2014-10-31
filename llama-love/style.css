@@ -53,17 +53,7 @@ table {
 /* -----------------END RESET---------------- */
 
 
-@media screen and (max-width:1000 px){
-	#site-wrapper {max-width:100%;}
-}
 
-@media screen and (max-width: 500px){
-	
-	#site-wrapper {max-width:100%;}
-	#llama-1 {max-width:100%;}
-	#llama-2 {max-width:100%;}
-	h1 {font-size:.5em;}
-}
 
 #site-wrapper {
 	margin:0px auto;
@@ -86,7 +76,7 @@ table {
 
 img.alignleft {
 	float: left;
-	margin:20px;
+	margin:5%;
 }
 
 
@@ -121,7 +111,20 @@ p {
 }
 
 
+@media screen and (max-width:1000 px){
+	#site-wrapper {max-width:100%;
+					background-color:red;}
+				
+}
 
+@media screen and (max-width: 500px){
+	
+	#site-wrapper {max-width:100%;
+					background-color:red;}
+	#llama-1 {max-width:100%;}
+	#llama-2 {max-width:100%;}
+	h1 {font-size:.5em;}
+}
 
 
 
