@@ -53,46 +53,26 @@ table {
 
 /* END RESET */
 
-@media screen and (max-width:1200px){
-	#site-wrapper {max-width:100%;}
-	#dog-photo {max-width: 100%;}
-	#cat-photo {max-width:100%;}
-	#nav li {font-size:1em;}
-}
+@font-face {
+		  font-family: 'league_gothicregular';
+		  src: url('type/leaguegothic-regular-webfont.eot');
+		  src: url('type/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+				         url('type/leaguegothic-regular-webfont.woff2') format('woff2'),
+				         url('type/leaguegothic-regular-webfont.woff') format('woff'),
+				         url('type/leaguegothic-regular-webfont.ttf') format('truetype'),
+				         url('type/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+		  font-weight: normal;
+		  font-style: normal;
 
-@media screen and (max-width: 1000px){
-	#site-wrapper {max-width:100%;}
-	h1 {font-size: 25px;}
-	#logo {max-width: 100%;}
-	#cat-photo {max-width: 100%;}
-	#dog-photo {max-width: 100%;}
-	nav li {font-size:.8em;}
-			}
-
-@media screen and (max-width: 800px){
-	#site-wrapper {max-width:100%;}
-	#dog-photo {max-width: 100%;}
-	#cat-photo {max-width:100%;}
-	h1 {font-size:.5em;}
-	p {font-size:.8em;}
-	nav li {font-size:.5em;}
-}
-
-@media screen and (max-width: 600px){
-	#site-wrapper {max-width:100%;}
-	h1 {font-size:20px;}
-	#logo {max-width:100%;}
-	#cat-photo {max-width:100%;}
-	#dog-photo {max-width:100%;}
-		}
+				}
 
 
 header {
 		text-align:center;}
 		
 #site-wrapper { 
-		margin: opx auto;
-		width: 960px;}
+		margin: 0px auto;
+		width: 1200px;}
 
 
 #logo {
@@ -108,8 +88,9 @@ header {
 		text-align:center;}
 		
 body { 
-		margin: opx auto;
-		width: 960px;}
+		margin: 0px auto;
+		width: 960px;
+		}
 
 #logo {
 		display: inline-block;
@@ -124,7 +105,7 @@ nav {
 		margin: 0px auto;
 		width: 80%;
 		text-align: center;
-		margin-bottom:10px;
+		margin-bottom:5%;
 		border-top-color: black;
 		border-top-style: solid;
 		border-top-width: 3px;
@@ -145,27 +126,16 @@ nav li
 	font-size: 25px;
 	text-transform: uppercase;
 	font-family: Garamond;}
-	
-#cat { 
-	float:right; 
-	width: 49%;
-	padding:0px;}
 
-#dog {
-	float:left;
-	width:49%;
-	padding:10 px;
-	clear:both;
-	margin-bottom:20px;}
 	
 h1 { 
-	font-family: Garamond;
+	font-family: 'league_gothicregular';
 	font-size: 25px;
 	font-weight:bold;
-	padding-top:15px;}	
+	padding-top:2%;}	
 	
 footer {
-		margin-top: 20px;
+		margin-top: 5%;
 		border-top-color: black;
 		border-top-style: solid;
 		border-top-width: 3px;
@@ -176,7 +146,8 @@ footer {
 
 p {
 		clear:both;
-		float:left;}
+		float:left;
+		margin-bottom:2%;}
 
 
 #text {
@@ -190,4 +161,41 @@ p {
 
 #marthar {
 		color:red;}
+		
+section {float:left; 
+		width:40%;}		
+		
+@media screen and (max-width:1200px){
+			#site-wrapper {max-width:100%;}
+			#dog-photo {max-width: 100%;}
+			#cat-photo {max-width:100%;}
+			#nav li {font-size:1em;}
+		}
+
+@media screen and (max-width: 1000px){
+			#site-wrapper {max-width:100%;}
+			h1 {font-size: 25px;}
+			#logo {max-width: 100%;}
+			#cat {max-width: 100%;}
+			#dog {max-width: 100%;}
+			nav li {font-size:.8em;}
+					}
+
+@media screen and (max-width: 800px){
+			#site-wrapper {max-width:100%;}
+			#dog {max-width: 100%;}
+			#cat {max-width:100%;}
+			h1 {font-size:.5em;}
+			p {font-size:.8em;}
+			nav li {font-size:.5em;}
+		}
+
+@media screen and (max-width: 600px){
+			#site-wrapper {max-width:100%;}
+			h1 {font-size:20px;}
+			#logo {max-width:100%;}
+			#cat {max-width:100%;}
+			#dog {max-width:100%;}
+				}
+
 
