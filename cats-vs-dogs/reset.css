@@ -66,6 +66,7 @@ table {
 	#logo {max-width: 100%;}
 	#cat-photo {max-width: 100%;}
 	#dog-photo {max-width: 100%;}
+	nav li {font-size:.8em;}
 			}
 
 @media screen and (max-width: 800px){
@@ -83,9 +84,7 @@ table {
 	#logo {max-width:100%;}
 	#cat-photo {max-width:100%;}
 	#dog-photo {max-width:100%;}
-			}
-
-
+		}
 
 
 header {
@@ -120,7 +119,7 @@ body {
 		padding-top:10px;
 		padding-bottom:20px;}
 
->>>>>>> FETCH_HEAD
+
 nav {
 		margin: 0px auto;
 		width: 80%;
