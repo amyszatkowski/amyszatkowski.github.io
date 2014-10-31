@@ -52,15 +52,31 @@ table {
 
 /* -----------------END RESET---------------- */
 
-<<<<<<< HEAD
+
+@media screen and (max-width:1000 px){
+	#site-wrapper {max-width:100%;}
+}
+
+@media screen and (max-width: 500px){
+	
+	#site-wrapper {max-width:100%;}
+	#llama-1 {max-width:100%;}
+	#llama-2 {max-width:100%;}
+	h1 {font-size:.5em;}
+}
+
+#site-wrapper {
+	margin:0px auto;
+	width:80%;
+
+}
+
+
 #llama-2 {
 	float:left;
 }
 
 
-
-
-=======
 #llama-1 {
 	float:right;
 	width:40%;
@@ -103,7 +119,6 @@ p {
 	font-family: sans-serif;
 	font-size: 15px;
 }
-
 
 
 
