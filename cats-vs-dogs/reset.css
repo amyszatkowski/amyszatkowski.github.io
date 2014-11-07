@@ -62,17 +62,65 @@ table {
 				         url('type/leaguegothic-regular-webfont.ttf') format('truetype'),
 				         url('type/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
 		  font-weight: normal;
-		  font-style: normal;
-
-				}
+		  font-style: normal;}
 
 
 header {
 		text-align:center;}
+
+#logo-2 {
+		margin:0px auto;
+		width:50%;
+		text-align:center;
+		padding-bottom:2%;
+}
 		
+#cats { 	
+		font-family: 'league_gothicregular';
+		font-size: 130px;
+		padding-top:5%;
+		float:left;
+		margin:0px auto;
+		width:48%;
+		
+			}
+			
+#dogs {
+		font-family: 'league_gothicregular';
+		font-size: 130px;
+		padding-top:5%;
+		float:right;
+		margin:0px auto;
+		width:48%;
+}
+
+#vs { 
+		margin:0px auto;
+		display:inline-block;
+		font-family:georgia;
+		font-size:70px;
+		font-style:italic;
+		color:gray;
+		border-top:3px;
+		border-bottom:3px;
+		border-style:solid;
+		border-color:gray;
+		clear:both;
+	
+		
+		}
+
+
 #site-wrapper { 
 		margin: 0px auto;
 		width: 1200px;}
+
+h4 { 	
+	    font-family: 'league_gothicregular';
+		font-size: 50px;
+		font-weight:bold;
+		padding-top:5%;
+	}
 
 
 #logo {
@@ -82,10 +130,7 @@ header {
 		text-align:center;
 		padding-top:10px;
 		padding-bottom:20px;}
-	
 
-header {
-		text-align:center;}
 		
 body { 
 		margin: 0px auto;
@@ -169,7 +214,8 @@ section {float:left;
 			#site-wrapper {max-width:100%;}
 			#dog-photo {max-width: 100%;}
 			#cat-photo {max-width:100%;}
-			#nav li {font-size:1em;}
+			#nav li {font-size:1em;
+		
 		}
 
 @media screen and (max-width: 1000px){
@@ -179,6 +225,7 @@ section {float:left;
 			#cat {max-width: 100%;}
 			#dog {max-width: 100%;}
 			nav li {font-size:.8em;}
+		
 					}
 
 @media screen and (max-width: 800px){
