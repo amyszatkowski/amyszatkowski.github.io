@@ -60,7 +60,7 @@ table {
 	background-color:white;
 	margin:0px auto;
 	width:50%;
-	margin-top:10%;
+	margin-top:5%;
 }
 
 #name {
@@ -71,7 +71,6 @@ table {
 }
 
 #photo-home {
-	background-color:white;
 	margin: 0px auto;
 	width:20%;
 	margin-top:10%;
