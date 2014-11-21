@@ -51,67 +51,71 @@ table {
 
 /* END RESET */
 
-#site-wrapper {
-	margin:0px auto;
-	width:90%;
-	background-color:#CECFCF;
-}
-
-#site-header {
-	margin:0px auto;
-	width:100%;
-	background-color:#FFFFB2;
-}
-	
-#nav-container {
-	margin:0px auto;
-	width:90%;
-	background-color:blue;
-	clear:left;
-
-}
-
-#nav-container li {
-	float:left;
+#nav li {
+	float:right;
 	padding:1%;
 }
 
-#work-page1 {
-	margin:0 px auto;
-	clear:left;
-	width:80%;
+#wrap {
+  overflow: hidden;
+  margin:0px auto;
+  width:80%;
+  clear:both;
+}
+.box {
+  width: 50%;
+  padding-bottom: 20%;
+  color: white;
+  position: relative;
+  float: left;
+  margin-bottom:1%;
 }
 
+.innerContent {
+  position: absolute;
+  left: 1px;
+  right: 1px;
+  top: 1px;
+  bottom: 1px;
+  background:black;
+  padding: 5%;
+}
 
-#work-1 img {width:50%;}
+.square-photo {
+	position:absolute;
+	left:1px;
+	right:1px;
+	top:1px;
+	bottom:1px;
+	padding:5%;
+	width:90%;
+	}
 
-#work-2 img {width:50%;}
-
-#work-3 img {width:50%;}
-
-#work-4 img {width:50%;}
-
-#work-5 img {width:40%;}
-
-#work-6 img {width:50%;}
-
-#work-7 img {width:50%;}
-
-#work-8 img {width:50%;}
-
-#work-9 img {width:50%;}
-
-#work-10 img {width:50%;}
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media only screen and (max-width : 480px) {
+   /* Smartphone view: 1 tile */
+   .box {
+      width: 100%;
+      padding-bottom: 100%;
+   }
+}
+@media only screen and (max-width : 650px) and (min-width : 481px) {
+   /* Tablet view: 2 tiles */
+   .box {
+      width: 50%;
+      padding-bottom: 50%;
+   }
+}
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
+   /* Small desktop / ipad view: 3 tiles */
+   .box {
+      width: 33.3%;
+      padding-bottom: 33.3%;
+   }
+}
+@media only screen and (max-width : 1290px) and (min-width : 1051px) {
+   /* Medium desktop: 4 tiles */
+   .box {
+      width: 25%;
+      padding-bottom: 25%;
+   }
+}
