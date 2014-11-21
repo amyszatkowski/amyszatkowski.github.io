@@ -52,79 +52,66 @@ table {
 /* END RESET */
 
 #site-wrapper {
-	background-color:#8D8D92;
-	margin: 0px auto;
-	width:100%;}
-	
+	margin:0px auto;
+	width:90%;
+	background-color:#CECFCF;
+}
+
 #site-header {
-	background-color:white;
 	margin:0px auto;
-	width:50%;
-	margin-top:5%;
+	width:100%;
+	background-color:#FFFFB2;
 }
-
-#name {
-	font-family:sans-serif;
-	font-size:20px;
-	color:#00CCA3;;
-	text-align:center;
-}
-
-#photo-home {
-	margin: 0px auto;
-	width:20%;
-	margin-top:10%;
-	padding-bottom:5%;
-	padding-top:3%;
-	padding-left:4%;
-	padding-right:4%;
-	border-radius:50%;
 	
-}
-
-#photo-home p {
-	font-family: sans-serif;
-	text-align:center;
-}
-
 #nav-container {
-	width:50%;
-	margin: 0px auto;
-}
-
-#nav-bar {
 	margin:0px auto;
-	width:50%;
-	padding-top:2%;
-	margin-top:10%;
-	background-color:#EFEFEF;
-	text-align:center;
- 	
+	width:90%;
+	background-color:blue;
+	clear:left;
+
 }
 
-	
-#nav-bar li {
-	float:right;
-	padding:3%;
-	font-family:sans-serif;
-	text-transform:lowercase;
-	background-color:#00CCA3;
-	margin-left:10%;
-	color:white;
-
-
-
-#nav-bar a {
-	text-decoration:none;
-}
-	
-@media screena and (1200px) {
-	#name{font-size:1em;}
+#nav-container li {
+	float:left;
+	padding:1%;
 }
 
-@media screen and (500px){
-	#name {font-size:.5em;}
-	
+#work-page1 {
+	margin:0 px auto;
+	clear:left;
+	width:80%;
 }
-	
-	
+
+
+#work-1 img {width:50%;}
+
+#work-2 img {width:50%;}
+
+#work-3 img {width:50%;}
+
+#work-4 img {width:50%;}
+
+#work-5 img {width:40%;}
+
+#work-6 img {width:50%;}
+
+#work-7 img {width:50%;}
+
+#work-8 img {width:50%;}
+
+#work-9 img {width:50%;}
+
+#work-10 img {width:50%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
