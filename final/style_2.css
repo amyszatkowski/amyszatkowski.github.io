@@ -130,6 +130,17 @@ table {
 	float:right;
 				}
 
+.rectangle-photo3 {
+	position:absolute;
+	left:1px;
+	right:1px;
+	top:1px;
+	bottom:1px;
+	padding:5%;
+	width:40%;
+	
+}
+
 
 
 

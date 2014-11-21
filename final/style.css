@@ -139,3 +139,18 @@ table {
       padding-bottom: 50%;
    }
 }
+
+@media only screen and (max-width : 1400px) and (min-width : 1291px) {
+   /* Medium desktop: 4 tiles */
+   .box {
+      width:60%;
+      padding-bottom: 60%;
+   }
+   
+   #wrap {
+	   width:70%;
+	   
+   }
+   
+}
+
