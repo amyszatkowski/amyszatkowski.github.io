@@ -133,7 +133,7 @@ table {
 @media only screen and (max-width : 1290px) and (min-width : 1051px) {
    /* Medium desktop: 4 tiles */
    .box {
-      width: 25%;
-      padding-bottom: 25%;
+      width:50%;
+      padding-bottom: 50%;
    }
 }
