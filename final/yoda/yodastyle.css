@@ -78,7 +78,7 @@ img {
       width:100%;
       padding-bottom: 100%;
    }
-
+   h1 {.5 em;}
 }
 
 @media only screen and (max-width : 1200px) and (min-width : 901px) {
@@ -87,7 +87,7 @@ img {
       width:100%;
       padding-bottom: 100%;
    }
-
+   h1 {.5em;}
 }
 
 @media only screen and (max-width : 1400px) and (min-width : 1291px) {
