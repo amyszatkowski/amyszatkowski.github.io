@@ -84,8 +84,8 @@ table {
   right: 1px;
   top: 1px;
   bottom: 1px;
-  background:black;
   padding: 5%;
+  background-color:black;
 }
 
 .square-photo {
