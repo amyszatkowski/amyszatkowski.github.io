@@ -53,20 +53,32 @@ table {
 
 #header {
 	margin:0px auto;
-	width:80%;
+	width:60%;
 	margin-top:3%;
 	background-color:gray;
 }
 
+#amy {
+	float:left;
+	width:200px;
+}
+
 #nav li {
 	float:right;
-	padding:1%;
+	padding:3%;	
+	background-color:yellow;
+	margin-top:3%;
+}
+
+#nav {
+	float:right;
+	width:10%;
 }
 
 #wrap {
   overflow: hidden;
   margin:0px auto;
-  width:80%;
+  width:60%;
   clear:both;
 }
 .box {
@@ -75,7 +87,6 @@ table {
   color: white;
   position: relative;
   float: left;
-  margin-bottom:1%;
 }
 
 .innerContent {
