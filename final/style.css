@@ -109,6 +109,10 @@ table {
  
 }
 
+h2 {
+	font-family:'Maven Pro,' sans-serif;
+}
+
 .box {
   width: 80%;
   padding-bottom: 20%;
@@ -179,8 +183,8 @@ table {
 @media only screen and (max-width : 1290px) and (min-width : 1051px) {
    /* Medium desktop: 4 tiles */
    .box {
-      width:50%;
-      padding-bottom: 50%;
+      width:33.333%;
+      padding-bottom: 33.333%;
    }
 }
 
