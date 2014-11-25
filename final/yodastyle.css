@@ -51,6 +51,40 @@ table {
 
 /* END RESET */
 
+#header {
+	margin:0px auto;
+	width:80%;
+	margin-top:4%;
+	padding-bottom: 8%;
+	background-color:#FFFFCC;
+	
+}
+
+#header h1 {
+	float:left;
+	width:50%;
+	font-family: 'Maven Pro', sans-serif;
+	text-transform:uppercase;
+	font-size:32px;	
+}
+
+#header h1 a {
+	text-decoration:none;
+}
+
+#nav li {
+	float:right;
+	padding:3%;	
+	margin-top:3%;
+	font-family: 'Raleway', sans-serif;
+	text-transform:uppercase;
+}
+
+#nav {
+	float:right;
+	width:50%;
+}
+
 
 #wrapper {
 	margin:0px auto;
