@@ -129,10 +129,10 @@ table {
 
 .square-photo {
 	position:absolute;
-	left:29px;
-	right:1px;
-	top:26px;
-	bottom:1px;
+	left:6%;
+
+	top:4%;
+
 	padding:5%;
 	width:80%;
 	
