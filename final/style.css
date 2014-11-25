@@ -90,7 +90,7 @@ table {
   margin:0px auto;
   width:70%;
   clear:both;
-  background-color: blue;
+  background-color: white;
  
 }
 
@@ -109,7 +109,7 @@ table {
   top: 1px;
   bottom: 1px;
   padding: 5%;
-  background-color:black;
+  background-color:#EFEFEF;
 }
 
 .square-photo {
@@ -120,6 +120,7 @@ table {
 	bottom:1px;
 	padding:5%;
 	width:90%;
+	
 	}
 	
 #footer-wrap {
