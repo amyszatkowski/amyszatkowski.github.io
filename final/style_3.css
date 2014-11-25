@@ -1,0 +1,200 @@
+/* Meyer Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* END RESET */
+
+#site-wrapper {
+	width:100%;
+	margin:0px auto;
+	background-color:#F7FCFB;
+	clear:both;
+}
+
+#header {
+	margin:0px auto;
+	width:80%;
+	margin-top:4%;
+	padding-bottom: 8%;
+
+	
+}
+
+#header h1 {
+	float:left;
+	width:50%;
+	font-family: 'Maven Pro', sans-serif;
+	text-transform:uppercase;
+	font-size:25px;	
+}
+
+#header h1 a {
+	text-decoration:none;
+	color:#9B9E9D;
+}
+
+#nav li {
+	float:right;
+	padding:3%;	
+	margin-top:3%;
+	font-family: 'Raleway', sans-serif;
+	text-transform:uppercase;
+	text-decoration:none;
+	color:#19A3A3;
+}
+
+#nav li a {
+	text-decoration:none;
+	color:#009999;
+}
+
+#nav {
+	float:right;
+	width:50%;
+}
+
+#wrap {
+  overflow: hidden;
+  margin:0px auto;
+  width:70%;
+  clear:both;
+  background-color: white;
+ 
+}
+
+.box {
+  width: 80%;
+  padding-bottom: 20%;
+  color: white;
+  position: relative;
+  float:right;;
+}
+
+.innerContent {
+  position: absolute;
+  left: 1px;
+  right: 1px;
+  top: 1px;
+  bottom: 1px;
+  padding: 10%;
+  background-color:#EFEFEF;
+}
+
+.square-photo {
+	position:absolute;
+	left:29px;
+	right:1px;
+	top:26px;
+	bottom:1px;
+	padding:5%;
+	width:80%;
+	
+	}
+	
+#footer-wrap {
+	margin:0px auto;
+	width:80%;
+	margin-top:3%;
+	margin-bottom:5%;
+	padding:3%;
+	background-color:#DCDDDC;
+	clear:both;
+}
+
+#copyright {
+	text-align:center;
+	font-family: 'Maven Pro', sans-serif;
+	font-family:10px;
+	
+}
+
+@media only screen and (max-width : 480px) {
+   /* Smartphone view: 1 tile */
+   .box {
+      width: 100%;
+      padding-bottom: 100%;
+   }
+}
+@media only screen and (max-width : 650px) and (min-width : 481px) {
+   /* Tablet view: 2 tiles */
+   .box {
+      width: 100%;
+      padding-bottom: 100%;
+   }
+}
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
+   /* Small desktop / ipad view: 3 tiles */
+   .box {
+      width: 50%;
+      padding-bottom: 50%;
+   }
+}
+@media only screen and (max-width : 1290px) and (min-width : 1051px) {
+   /* Medium desktop: 4 tiles */
+   .box {
+      width:50%;
+      padding-bottom: 50%;
+   }
+}
+
+@media only screen and (max-width : 1400px) and (min-width : 1291px) {
+   /* Medium desktop: 4 tiles */
+   .box {
+      width:50%;
+      padding-bottom: 65%;
+   }
+   
+   #wrap {
+	   width:70%;
+	   
+   }
+   
+}
+
