@@ -156,6 +156,16 @@ table {
 	
 	}
 	
+.square-photo2 {
+	position:absolute;
+	left:-2%;
+	top:-23%;
+	padding:5%;
+	width:95%;
+	
+		}	
+	
+	
 #footer-wrap {
 	margin:0px auto;
 	width:80%;
