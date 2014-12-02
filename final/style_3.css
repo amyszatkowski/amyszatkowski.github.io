@@ -116,6 +116,14 @@ table {
 }
 
 
+#email {font-family: 'Raleyway', sans-serif;
+	color:black
+	font-size:15px;}
+
+#contact-info {
+	margin:0px auto;
+	width:50%;
+}
 
 #wrap {
   overflow: hidden;
