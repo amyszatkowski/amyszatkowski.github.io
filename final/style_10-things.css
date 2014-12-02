@@ -100,6 +100,24 @@ table {
 	width:50%;
 }
 
+#title {
+	margin:0px auto;
+	width:70%;
+	clear:both;
+
+	text-align:center;
+	padding-top:2%;
+	padding-bottom:2%;
+}
+
+#title h3 {
+	font-family: 'Raleway', sans-serif;
+	color:black;
+	font-size:20px;
+}
+
+
+
 #wrap {
   overflow: hidden;
   margin:0px auto;
