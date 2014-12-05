@@ -62,8 +62,6 @@ table {
 	width:80%;
 	margin-top:4%;
 	padding-bottom: 8%;
-
-	
 }
 
 #header h1 {
@@ -77,6 +75,10 @@ table {
 #header h1 a {
 	text-decoration:none;
 	color:#9B9E9D;
+}
+
+#header h1 a:hover {
+	color:black;
 }
 
 #nav li {
@@ -97,6 +99,10 @@ table {
 #nav {
 	float:right;
 	width:50%;
+}
+
+#nav li a:hover {
+	color:black;
 }
 
 #title {

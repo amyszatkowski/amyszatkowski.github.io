@@ -79,6 +79,10 @@ table {
 	color:#9B9E9D;
 }
 
+#header h1 a:hover {
+	color:black;
+}
+
 #nav li {
 	float:right;
 	padding:3%;	
@@ -94,10 +98,16 @@ table {
 	color:#009999;
 }
 
+#nav li a:hover {
+	color:black;
+}
+
 #nav {
 	float:right;
 	width:50%;
 }
+
+
 
 #wrap {
   overflow: hidden;
@@ -140,6 +150,7 @@ h2 {
 	width:80%;
 	
 	}
+
 	
 #footer-wrap {
 	margin:0px auto;
