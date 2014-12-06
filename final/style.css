@@ -76,7 +76,7 @@ table {
 
 #header h1 a {
 	text-decoration:none;
-	color:#9B9E9D;
+	color:#009999;
 }
 
 #header h1 a:hover {
@@ -85,7 +85,7 @@ table {
 
 #nav li {
 	float:right;
-	padding:3%;	
+	padding-right:6%;	
 	margin-top:3%;
 	font-family: 'Raleway', sans-serif;
 	text-transform:uppercase;
