@@ -150,7 +150,7 @@ h2 {
   top: 1px;
   bottom: 1px;
   padding: 10%;
-  background-color:#EFEFEF;
+  background-color:white;
 }
 
 .box:hover p {
@@ -161,7 +161,7 @@ p {
 	font-size:20px;
 	text-transform:bold;
 	font-family: 'Raleway', sans-serif;
-	background-color:rgba(178, 182, 182, .85);
+	background-color:rgba(0, 153, 153, .7);
 	color:white;
 	padding-left:2%;
 	padding-right:2%;
