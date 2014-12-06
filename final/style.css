@@ -202,7 +202,7 @@ p {
 #footer-wrap {
 	margin:0px auto;
 	width:80%;
-	margin-top:3%;
+	margin-top:1%;
 	margin-bottom:5%;
 	padding:3%;
 	clear:both;
@@ -210,8 +210,11 @@ p {
 
 #copyright {
 	text-align:center;
-	font-family: 'Maven Pro', sans-serif;
-	font-family:10px;
+	font-family: 'Raleway', sans-serif;
+	font-size:10px;
+	padding-top:5%;
+	background-color:white;
+	color:black;
 	
 }
 
