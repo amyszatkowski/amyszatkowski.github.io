@@ -127,8 +127,10 @@ h2 {
 	z-index: 100;
 	margin-top: 50px;
 	text-align: center;
+
 	opacity: 0;
 	-webkit-transition: all 1s;
+	
 	
 }
 
@@ -156,13 +158,16 @@ h2 {
 }
 
 p { 
-	font-size:40px;
+	font-size:20px;
 	text-transform:bold;
-	font-family:sans-serif;
+	font-family: 'Raleway', sans-serif;
 	background-color:rgba(178, 182, 182, .7);
 	color:white;
-	height:70%
-	padding-top: 63px;
+	padding-left:2%;
+	padding-right:2%;
+	height:45%;
+	padding-top:43%;
+
 }
 
 .square-photo {
@@ -182,7 +187,7 @@ p {
 	position:absolute;
 	left:19px;
 	right:1px;
-	top:16px;
+	top:-11%;
 	bottom:1px;
 	padding:5%;
 	width:80%;
