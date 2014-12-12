@@ -179,9 +179,13 @@ p {
 	padding:5%;
 	width:80%;
     -webkit-transition: all 1s;
-	
 	}
 		
+.border {
+    border-style: solid;
+       border-width: 1px;
+	   border-color:black;
+}		
 	
 .image-text {
 	position:absolute;
