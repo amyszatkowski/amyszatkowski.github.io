@@ -200,6 +200,10 @@ table {
 		padding-bottom:2%;
 	}
 
+	.tom {
+		padding-top:2%;
+	}
+
 @media only screen and (max-width : 480px) {
    /* Smartphone view: 1 tile */
    .box {
