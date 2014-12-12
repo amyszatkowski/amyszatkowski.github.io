@@ -229,6 +229,15 @@ p {
       width: 100%;
       padding-bottom: 100%;
    }
+   
+   #nav {
+	   font-size:.7em;
+   }
+   
+   #header h1 {
+	   font-size:.8em;
+   }
+   
 }
 @media only screen and (max-width : 650px) and (min-width : 481px) {
    /* Tablet view: 2 tiles */
@@ -250,6 +259,10 @@ p {
       width:33.333%;
       padding-bottom: 33.333%;
    }
+   
+   #nav {
+	   font-size:.8em;
+   }
 }
 
 @media only screen and (max-width : 1600px) and (min-width : 1291px) {
@@ -264,9 +277,7 @@ p {
 	   
    }
    
-   #nav {
-	   font-size:.8em;
-   }
+ 
    
 }
 
